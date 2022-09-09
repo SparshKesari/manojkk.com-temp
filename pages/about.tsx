@@ -49,7 +49,7 @@ const workExperience = [
 export default function About({ recentArticles }) {
   const { push } = useRouter();
   return (
-    <Container title="About Me - Braydon Coyer">
+    <Container title="About Me - Manoj Kumar">
       <h1>
         <span className="block text-base font-semibold tracking-wide text-center text-teal-500 uppercase dark:text-teal-400">
           About me

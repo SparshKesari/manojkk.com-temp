@@ -20,7 +20,7 @@ export default function Stats() {
   );
 
   return (
-    <Container title="Stats - Braydon Coyer">
+    <Container title="Stats - Manoj Kumar">
       <h1>
         <span className="block text-base font-semibold tracking-wide text-center text-teal-500 uppercase dark:text-teal-400">
           Stats

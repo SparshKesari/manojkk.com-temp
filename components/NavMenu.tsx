@@ -48,7 +48,7 @@ export function NavMenu({}) {
         <div className="flex justify-start lg:w-0 lg:flex-1">
           <span className="sr-only">Profile Picture</span>
           <Image
-            alt="Braydon Coyer"
+            alt="Manoj Kumar"
             height={48}
             width={48}
             src={siteMetadata.avatarImage}
@@ -88,7 +88,7 @@ export function NavMenu({}) {
         <nav className="hidden space-x-6 text-lg md:flex">
           <NavItem href="/" text="Home" />
           <NavItem href="/about" text="About" />
-          <NavItem href="/projects" text="Projects" />
+          {/* <NavItem href="/projects" text="Projects" /> */}
           <NavItem href="/blog" text="Blog" />
           {/* <NavItem href="/community-wall" text="Community wall" /> */}
         </nav>
@@ -239,13 +239,13 @@ export function NavMenu({}) {
                   </a>
                 </NextLink>
               </li>
-              <li>
+              {/* <li>
                 <NextLink href="/projects">
                   <a className="hover:text-teal-400 dark:hover:text-teal-500">
                     Projects
                   </a>
                 </NextLink>
-              </li>
+              </li> */}
               <li>
                 <NextLink href="/blog">
                   <a className="hover:text-teal-400 dark:hover:text-teal-500">
