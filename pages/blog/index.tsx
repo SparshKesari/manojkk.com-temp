@@ -11,7 +11,7 @@ import { Tag } from '@/components/Tag';
 import { handleArticleClicked } from '@/lib/handleArticleClick';
 import siteMetadata from '@/data/siteMetadata';
 import slugify from 'slugify';
-import { Ad } from '@/components/Ad';
+
 
 export default function Blog({ featuredArticle, articles, tags }) {
   const [selectedTag, setSelectedTag] = useState<string>('');

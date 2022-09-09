@@ -1,4 +1,4 @@
-import { Ad } from '@/components/Ad';
+
 import { ClapCount } from '@/components/stats/ClapCount';
 import { Container } from 'layouts/Container';
 import { LikeCount } from '@/components/stats/LikeCount';
