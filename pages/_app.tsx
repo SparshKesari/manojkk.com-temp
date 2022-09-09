@@ -9,7 +9,7 @@ import { useSupabase } from '@/hooks/useSupabase';
 function MyApp({ Component, pageProps }: AppProps) {
   const { session, supabaseClient } = useSupabase();
   return (
-    <PlausibleProvider domain="braydoncoyer.dev" trackOutboundLinks={true}>
+    <PlausibleProvider domain="manojkk.com" trackOutboundLinks={true}>
       <ThemeProvider attribute="class">
         <Component session={session} supabase={supabaseClient} {...pageProps} />
       </ThemeProvider>

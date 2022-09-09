@@ -5,7 +5,7 @@ export default async function handler(
   res: NextApiResponse
 ) {
   const result = await fetch(
-    `https://plausible.io/api/v1/stats/aggregate?site_id=braydoncoyer.dev&period=12mo&metrics=pageviews`,
+    `https://plausible.io/api/v1/stats/aggregate?site_id=manojkk.com&period=12mo&metrics=pageviews`,
     {
       method: 'GET',
       headers: {

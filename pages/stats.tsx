@@ -43,7 +43,6 @@ export default function Stats() {
         <NewsletterSubs />
       </div>
       <div className="flex items-center justify-center my-8">
-        <Ad />
       </div>
       <div className="grid grid-cols-4 gap-2 md:gap-6">
         <div className="col-span-4">
@@ -63,7 +62,6 @@ export default function Stats() {
         <TotalReactions />
       </div>
       <div className="flex items-center justify-center my-8">
-        <Ad />
       </div>
     </Container>
   );

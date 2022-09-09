@@ -12,24 +12,37 @@ import { useRouter } from 'next/router';
 
 const workExperience = [
   {
-    company: 'LogicGate',
-    title: 'Front End Developer',
-    duration: '2022 -'
+    company: 'LambdaTest',
+    title: 'VP - Developer Relations',
+    duration: '2022 - Present'
   },
   {
     company: 'Cognizant',
-    title: 'Full-Stack Engineer',
-    duration: '2019 - 2021'
+    title: 'Project Leadership commmittee',
+    duration: '2018 - Present'
   },
   {
-    company: 'projekt202',
-    title: 'UI Developer',
-    duration: '2018 - 2019'
+    company: 'Thoughtworks',
+    title: 'Market Tech Principal - SEA & Australia | Digital Accessibility Advocate',
+    duration: '2020 - 2022'
   },
   {
-    company: 'Major 4 Apps',
-    title: 'Founder',
-    duration: '2011 - 2018'
+    company: 'Assertify Consulting',
+    title: 'Founding Principal',
+    duration: '2017 - 2020'
+  },
+  {
+    company: 'Applitools - Automated Visual Testing',
+    title: 'Technical Lead',
+    duration: '2017 - 2020'
+  }, {
+    company: 'IAG',
+    title: 'Digital Platform Architect',
+    duration: '2014 - 2017'
+  }, {
+    company: 'Wipro Technologies',
+    title: 'Technical Lead',
+    duration: '2008 - 2014'
   }
 ];
 
@@ -51,9 +64,10 @@ export default function About({ recentArticles }) {
         <Link href="/blog">
           <a>blogger</a>
         </Link>{' '}
-        and self-proclaimed designer who specializes in front-end development.
-        My mission is to translate user-focussed designs into pixel-perfect
-        websites or applications that run blazing fast.
+        Manoj is a Principal Consultant who has played multiple roles at ThoughtWorks.
+        He loves exploring the software development lifecycle in its entirety and is particularly passionate 
+        about solving problems in the UI/UX, QA and DevOps space. He has over 13+ years of experience across
+         enterprises, Fintech and early-stage startups.
       </p>
       <p>
         I’m currently working as a senior front end developer at{' '}
@@ -102,9 +116,7 @@ export default function About({ recentArticles }) {
             <Link href="/blog">
               <a>blog</a>
             </Link>{' '}
-            and create cool things over on{' '}
-            <a href={siteMetadata.codepen}>CodePen</a>. I also help run a
-            mediocre <a href="https://anchor.fm/florida-man">podcast</a>.
+           .
           </p>
         </div>
       </div>

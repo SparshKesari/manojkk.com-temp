@@ -219,7 +219,6 @@ export default function Blog({ featuredArticle, articles, tags }) {
             </div>
           </div>
           <div>
-            <Ad />
           </div>
         </div>
       </div>

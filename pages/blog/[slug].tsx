@@ -7,7 +7,6 @@ import {
   getMoreArticlesToSuggest
 } from '@/lib/notion';
 
-import { Ad } from '@/components/Ad';
 import { AnchorLink } from '@/components/AnchorLink';
 import { ArticleList } from '@/components/ArticleList';
 import { Button } from '@/components/Button';
@@ -16,7 +15,6 @@ import { Client } from '@notionhq/client';
 import { CodeBlock } from '@/components/Codeblock';
 import { Container } from 'layouts/Container';
 import Image from 'next/image';
-import PageViews from '@/components/PageViews';
 import Reactions from '@/components/Reactions';
 import { ShareArticle } from '@/components/ShareArticle';
 import { Subscribe } from '@/components/Subscribe';
@@ -351,7 +349,6 @@ const ArticlePage = ({
             Share Article
           </h3>
           <ShareArticle title={title} slug={slug} />
-          <Ad />
         </aside>
       </div>
     </Container>
