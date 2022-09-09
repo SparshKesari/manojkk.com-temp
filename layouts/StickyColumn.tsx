@@ -1,4 +1,3 @@
-import { Ad } from '@/components/Ad';
 
 export function StickyColumn({ children }) {
   return (
