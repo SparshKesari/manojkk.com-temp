@@ -59,35 +59,32 @@ export default function About({ recentArticles }) {
         </span>
       </h1>
       <p>
-        I’m Manoj, a developer,{' '}
-        <a href={siteMetadata.codepen}>creative coder</a>,{' '}
+        I’m <a href="https://www.linkedin.com/in/manoj9788/" target="_blank" rel="noopener noreferrer">Manoj</a>, 
+        a <a href ="https://github.com/manoj9788" target="_blank" rel="noopener noreferrer">developer</a>,{' '}
+        {' '}
         <Link href="/blog">
           <a>blogger</a>
         </Link>{' '}
-        Manoj is a Principal Consultant who has played multiple roles at ThoughtWorks.
-        He loves exploring the software development lifecycle in its entirety and is particularly passionate 
+        open source enthusiast and DevRel at <a href="https://www.lambdatest.com/" target="_blank" rel="noopener noreferrer">LambdaTest</a>. He loves exploring the software development lifecycle in its entirety and is particularly passionate 
         about solving problems in the UI/UX, QA and DevOps space. He has over 13+ years of experience across
          enterprises, Fintech and early-stage startups.
       </p>
       <p>
-        I’m currently working as a senior front end developer at{' '}
-        <a href="https://www.logicgate.com">LogicGate</a> where I help develop
-        an agile GRC cloud solution that combines powerful functionality with
-        intuitive design to enhance enterprise GRC programs.
+      An avid open-source enthusiast, Manoj is a committer to the Selenium and Appium project. He is also part of the project leadership committee for Selenium. He has contributed to various libraries and frameworks like ngWebDriver, Protractor and Serenity, has hosted his own projects on Docker and Kubernetes in the automated testing ecosystem.
       </p>
 
       <p>
-        Prior to LogicGate, I worked as a senior full-stack engineer at{' '}
+        {/* Prior to LogicGate, I worked as a senior full-stack engineer at{' '}
         <a href="https://www.cognizant.com/us/en">Cognizant</a> where I helped
         architect and develop full-stack RESTful microservices, train and
         prepare developers for delivery, and assist in leading the front-end
-        practice in a lab-based working environment.
+        practice in a lab-based working environment. */}
       </p>
       <p>
-        Before Cognizant, I worked as a UI Developer for{' '}
+        {/* Before Cognizant, I worked as a UI Developer for{' '}
         <a href="https://www.projekt202.com">projekt202</a> helping craft design
         systems and building reusable component libraries for multi-million
-        dollar companies.
+        dollar companies. */}
       </p>
       <div className="grid grid-cols-1 gap-0 md:grid-cols-4 md:gap-x-5">
         <div className="col-span-1">
@@ -105,8 +102,7 @@ export default function About({ recentArticles }) {
         </div>
         <div className="col-span-3">
           <p className="">
-            In a past life, I was an indie mobile developer making mobile games
-            for iOS and Android, with one of my games outselling Angry Birds.
+          Interests: Developer Relations, Legacy Modernization, Cloud, Quality, Accessibility, Observability, AI/ML Ops
           </p>
           <p>
             You can find me on <a href={siteMetadata.twitter}>Twitter</a> where
