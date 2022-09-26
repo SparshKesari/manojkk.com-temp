@@ -1,9 +1,4 @@
 module.exports = {
-  eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
-    ignoreDuringBuilds: true,
-  },
   async rewrites() {
     return [
       {
@@ -31,22 +26,7 @@ module.exports = {
       'dwgyu36up6iuz.cloudfront.net',
       'cdn.hashnode.com',
       'res.craft.do',
-      'res.cloudinary.com',
-      'cdn.discordapp.com'
+      'res.cloudinary.com'
     ]
-  },
-  webpack: (config, { dev, isServer }) => {
-    // Replace React with Preact only in client production build.
-    // With this you ship way less javascript to the client I mean almost half.
-    if (!dev && !isServer) {
-      Object.assign(config.resolve.alias, {
-        react: 'preact/compat',
-        'react-dom/test-utils': 'preact/test-utils',
-        'react-dom': 'preact/compat',
-        'react/jsx-runtime': 'preact/jsx-runtime'
-      });
-    }
-
-    return config;
   }
 };
